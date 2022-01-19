@@ -1,0 +1,23 @@
+//global styles and change variable from framework
+
+//google fonts
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+$family-sans-serif: "Oswald", sans-serif;
+
+//update variables from framework
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+//global styles
+
+html, body {
+    height: 100%;
+}
+
+html {
+    background-image: url('./assets/background-image.jpg');
+    background-size: cover;
+    overflow-y: auto;
+}
